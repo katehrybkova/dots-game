@@ -1,7 +1,7 @@
 
 <template>
   <div>
-    <b-form class="d-flex" @submit="startGame">
+    <b-form class="d-flex justify-content-between" @submit="startGame">
       <b-form-select
         :disabled="isGameStarted"
         class="mr-3 gameBoardInput"
@@ -223,19 +223,3 @@ export default {
 };
 </script>
 
-<style>
-.game-board {
-  display: grid;
-  justify-content: center;
-}
-.box {
-  border: 2px solid rgba(0, 0, 0, 0.075);
-  display: block;
-}
-.gameBoardBtn {
-  min-width: min-content;
-}
-.gameBoardInput {
-  max-width: 150px;
-}
-</style>

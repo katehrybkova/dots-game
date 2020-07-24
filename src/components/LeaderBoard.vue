@@ -29,6 +29,7 @@ export default {
   },
   methods: {
     updateWinnersData(data) {
+      if(data)
       this.leaderList = data.data.reverse();
       this.$nextTick(function () {
         this.key = uuidv4();
@@ -47,5 +48,3 @@ export default {
 };
 </script>
 
-<style >
-</style>
