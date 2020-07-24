@@ -126,7 +126,6 @@ export default {
         this.timer += 1;
       }, this.activeMode.delay);
     },
-
     showChip() {
       if (this.isGameFinished) return;
       if (this.availableCells.length > 0)
