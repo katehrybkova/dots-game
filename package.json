@@ -2,7 +2,7 @@
   "name": "dots-game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://katehrybkova.github.io/dots-game",
+  "homepage": "https://katehrybkova.github.io/dots-game/",
     "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
