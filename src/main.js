@@ -6,6 +6,8 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.use(BootstrapVue);
 
+export const eventBus = new Vue()
+
 new Vue({
   el: '#app',
   render: h => h(App)
